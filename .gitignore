@@ -1,0 +1,6 @@
+luac.out
+*.swp
+*.swo
+plugin/packer_compiled.lua
+.netrwhist
+
