@@ -30,6 +30,6 @@ require('telescope').setup{
 }
 
 
-vim.keymap.set('n', '<leader>pp',require "telescope.builtin".find_files,{remap = false })
+vim.keymap.set('n', '<leader>ff',require "telescope.builtin".find_files,{remap = false })
 vim.keymap.set('n', '<leader>gg',require "telescope.builtin".git_files,{remap = false })
 vim.keymap.set('n', '<leader>gs',require "telescope.builtin".git_status,{remap = false })
